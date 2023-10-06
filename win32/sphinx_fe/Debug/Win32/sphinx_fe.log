@@ -1,0 +1,616 @@
+﻿Build started 09-Dec-18 14:04:21.
+     1>Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" on node 3 (Rebuild target(s)).
+     1>Building with tools version "12.0".
+       Target "InvalidPlatformFortrueError" skipped, due to false condition; ('$(EnableRedirectPlatform)' == 'true' and '$(DesignTimeBuild)'!='true') was evaluated as ('' == 'true' and ''!='true').
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (entry point):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=Win32
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\' != '' and !HasTrailingSlash('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\Win32\' != '' and !HasTrailingSlash('Debug\Win32\')).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "sphinx_fe.vcxproj".
+     1>Target "_PrepareForRebuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "_PrepareForRebuild" in project "sphinx_fe.vcxproj".
+     1>Target "BeforeRebuild" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "BeforeRebuild" in project "sphinx_fe.vcxproj".
+     1>Target "_PrepareForClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+       Task "Delete" skipped, due to false condition; (Exists($(LastBuildState))) was evaluated as (Exists(Debug\Win32\sphinx_fe.tlog\sphinx_fe.lastbuildstate)).
+     1>Done building target "_PrepareForClean" in project "sphinx_fe.vcxproj".
+     1>Target "BeforeClean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+     1>Done building target "BeforeClean" in project "sphinx_fe.vcxproj".
+       Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\sphinx_fe.vcxproj.UnmanagedRegistration.cache')).
+     1>Target "CoreClean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+         File "Debug\Win32\\TempCA\sphinx_fe.pdb" doesn't exist. Skipping.
+         File "Debug\Win32\\TempCA\sphinx_fe.exe" doesn't exist. Skipping.
+       Done executing task "Delete".
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "FindUnderPath"
+         Comparison path is "C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\".
+       Done executing task "FindUnderPath".
+       Task "FindUnderPath"
+         Comparison path is "Debug\Win32\".
+       Done executing task "FindUnderPath".
+       Task "Delete"
+       Done executing task "Delete".
+       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "CoreClean" in project "sphinx_fe.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CleanReferencedProjects" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+         Project reference "..\sphinxbase\sphinxbase.vcxproj" has been assigned the "Debug|Win32" configuration.
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "sphinx_fe.vcxproj".
+     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CleanReferencedProjects" depends on it):
+       Using "ResolveNonMSBuildProjectOutput" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ResolveNonMSBuildProjectOutput"
+         Resolving project reference "..\sphinxbase\sphinxbase.vcxproj".
+         Project reference "..\sphinxbase\sphinxbase.vcxproj" has not been resolved.
+       Done executing task "ResolveNonMSBuildProjectOutput".
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "sphinx_fe.vcxproj".
+     1>Target "CleanReferencedProjects" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '').
+     1>Done building target "CleanReferencedProjects" in project "sphinx_fe.vcxproj".
+     1>Target "CleanPublishFolder" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+       Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\app.publish\'=='C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\app.publish\' and Exists('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\app.publish\')).
+     1>Done building target "CleanPublishFolder" in project "sphinx_fe.vcxproj".
+     1>Target "AfterClean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+     1>Done building target "AfterClean" in project "sphinx_fe.vcxproj".
+       Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+     1>Target "BeforeCppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CppClean" depends on it):
+     1>Done building target "BeforeCppClean" in project "sphinx_fe.vcxproj".
+     1>Target "CoreCppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CppClean" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Using "CppClean" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "CppClean"
+       Done executing task "CppClean".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "CoreCppClean" in project "sphinx_fe.vcxproj".
+     1>Target "AfterCppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CppClean" depends on it):
+     1>Done building target "AfterCppClean" in project "sphinx_fe.vcxproj".
+     1>Target "PGInstrumentedClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CppClean" depends on it):
+       Task "Delete"
+       Done executing task "Delete".
+     1>Done building target "PGInstrumentedClean" in project "sphinx_fe.vcxproj".
+     1>Target "CppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Clean" depends on it):
+     1>Done building target "CppClean" in project "sphinx_fe.vcxproj".
+     1>Target "Clean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "Clean" in project "sphinx_fe.vcxproj".
+     1>Target "_PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+     1>Done building target "_PrepareForBuild" in project "sphinx_fe.vcxproj".
+     1>Target "_PrepareForReferenceResolution" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveReferences" depends on it):
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "_PrepareForReferenceResolution" in project "sphinx_fe.vcxproj".
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('..\..\src\sphinx_fe\sphinx_fe.c'!='' and 'false'=='true' and '' != 'false').
+     1>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "BeforeResolveReferences" in project "sphinx_fe.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "_RemoveNameMetadataFromProjectReferenceItems" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveProjectReferences" depends on it):
+     1>Done building target "_RemoveNameMetadataFromProjectReferenceItems" in project "sphinx_fe.vcxproj".
+     1>Target "ResolveProjectReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveReferences" depends on it):
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+         Global Properties:
+           Configuration=Debug
+           Platform=Win32
+     1>Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (1) is building "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+     2>Building with tools version "12.0".
+       Target "InvalidPlatformFortrueError" skipped, due to false condition; ('$(EnableRedirectPlatform)' == 'true' and '$(DesignTimeBuild)'!='true') was evaluated as ('' == 'true' and ''!='true').
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "GetTargetPath" skipped. Previously built successfully.
+     2>Done Building Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (GetTargetPath target(s)).
+     1>Done executing task "MSBuild".
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' == '10.0' and '..\sphinxbase\sphinxbase.vcxproj' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '' and 'true' != 'true' and 'true' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '').
+       Task "MSBuild"
+         Global Properties:
+           Configuration=Debug
+           Platform=Win32
+     1>Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (1) is building "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+   2:2>Building with tools version "12.0".
+       Target "InvalidPlatformFortrueError" skipped, due to false condition; ('$(EnableRedirectPlatform)' == 'true' and '$(DesignTimeBuild)'!='true') was evaluated as ('' == 'true' and ''!='true').
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "GetNativeManifest" skipped. Previously built successfully.
+   2:2>Done Building Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (GetNativeManifest target(s)).
+     1>Done executing task "MSBuild".
+       Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('..\sphinxbase\sphinxbase.vcxproj' != '' and '' != '').
+     1>Done building target "ResolveProjectReferences" in project "sphinx_fe.vcxproj".
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+     1>Target "GetFrameworkPaths" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+     1>Done building target "GetFrameworkPaths" in project "sphinx_fe.vcxproj".
+       Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     1>Target "GetReferenceAssemblyPaths" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Done building target "GetReferenceAssemblyPaths" in project "sphinx_fe.vcxproj".
+     1>Target "SetBuildDefaultEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareForBuild" depends on it):
+       Using "SetEnv" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "SetEnv"
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\ImageMagick-6.9.0-Q16;C:\Program Files\Java\jdk1.7.0_51\bin\javaw.exe;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Inkscape-0.48\python\;C:\Program Files (x86)\Inkscape-0.48\python\DLLs;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Common Files\GTK\2.0\bin;C:\Program Files\Cepstral\bin;C:\Program Files (x86)\Cepstral\bin;C:\Program Files\Git\cmd;C:\Program Files\Anaconda3;C:\Program Files\Anaconda3\Scripts;C:\Program Files\Anaconda3\Library\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\PROGRA~2\EPO_OLF5\fm\lib;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Ruby200-x64\bin;C:\Program Files (x86)\FastFieldSolvers\FastHenry2\Utilities;C:\Program Files (x86)\FastFieldSolvers\FastCap2\Utilities;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files\Java\jdk1.7.0_51\bin;c:\Program Files\Java\jre1.8.0_101\bin;C:\Program Files (x86)\Torch5 0.8.0\bin;C:\aeonWorkingDirectory\dotnetcore\Microsoft VS Code\bin;C:\Users\malfactor\.dotnet\tools;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+       Done executing task "SetEnv".
+     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "sphinx_fe.vcxproj".
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "GetResolvedWinMD" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareForBuild" depends on it):
+     1>Done building target "GetResolvedWinMD" in project "sphinx_fe.vcxproj".
+     1>Target "PlatformPrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(ConfigurationPlatformExists)' != 'true') was evaluated as ('true' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(ToolsetTargetsFound)' != 'true') was evaluated as ('true' != 'true').
+     1>Done building target "PlatformPrepareForBuild" in project "sphinx_fe.vcxproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+     1>Target "SetCABuildNativeEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareForBuild" depends on it):
+       Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Build.Tasks.v12.0.dll".
+       Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
+       Task "SetEnvironmentVariable"
+       Done executing task "SetEnvironmentVariable".
+     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "sphinx_fe.vcxproj".
+     1>Target "PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and 'v120'=='v90').
+       Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Windows Kits\8.1\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_MBCS_Using)' == 'true' and '$(_MBCS_Installed)' != 'true' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' == 'true' and '' != 'true' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) was evaluated as ('' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "PrepareForBuild" in project "sphinx_fe.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('..\..\src\sphinx_fe\sphinx_fe.c'!='' and 'false'=='true' and '' != 'false').
+     1>Target "GetInstalledSDKLocations" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveSDKReferences" depends on it):
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+     1>Done building target "GetInstalledSDKLocations" in project "sphinx_fe.vcxproj".
+     1>Target "ResolveSDKReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ResolveSDKReferences" in project "sphinx_fe.vcxproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+     1>Target "ExpandSDKReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ExpandSDKReferences" in project "sphinx_fe.vcxproj".
+     1>Target "ResolveAssemblyReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveReferences" depends on it):
+       Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+     1>Done building target "ResolveAssemblyReferences" in project "sphinx_fe.vcxproj".
+       Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
+       Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Debug\Win32\sphinx_fe.vcxproj.sphinx_fe.exe.config')).
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+     1>Target "AfterResolveReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "AfterResolveReferences" in project "sphinx_fe.vcxproj".
+       Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+     1>Target "ResolveReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+     1>Done building target "ResolveReferences" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+     1>Target "InitializeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Creating "Debug\Win32\sphinx_fe.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Done executing task "Touch".
+     1>Done building target "InitializeBuildStatus" in project "sphinx_fe.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildGenerateSourcesTraverse" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "BuildGenerateSources" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '' and '..\sphinxbase\sphinxbase.vcxproj' != '' and 'true' == 'true').
+     1>Done building target "BuildGenerateSourcesTraverse" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "BeforeBuildGenerateSources" in project "sphinx_fe.vcxproj".
+     1>Target "PreBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreBuildEvent" in project "sphinx_fe.vcxproj".
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+     1>Target "_Xsd" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Xsd" in project "sphinx_fe.vcxproj".
+     1>Target "MakeDirsForMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Midl" depends on it):
+       Task "Makedir"
+       Done executing task "Makedir".
+     1>Done building target "MakeDirsForMidl" in project "sphinx_fe.vcxproj".
+       Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeMIDLGeneratedCompileInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "sphinx_fe.vcxproj".
+     1>Target "AfterMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "AfterMidl" in project "sphinx_fe.vcxproj".
+     1>Target "_Midl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Midl" in project "sphinx_fe.vcxproj".
+     1>Target "AfterBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSources" in project "sphinx_fe.vcxproj".
+     1>Target "AfterBuildGenerateSourcesEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSourcesEvent" in project "sphinx_fe.vcxproj".
+     1>Target "_BuildGenerateSourcesAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "BuildGenerateSources" depends on it):
+     1>Done building target "_BuildGenerateSourcesAction" in project "sphinx_fe.vcxproj".
+     1>Target "BuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildGenerateSources" in project "sphinx_fe.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildCompileTraverse" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "BuildCompile" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '' and '..\sphinxbase\sphinxbase.vcxproj' != ''  and 'true' == 'true').
+     1>Done building target "BuildCompileTraverse" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "BeforeClCompile" in project "sphinx_fe.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+     1>Target "ComputeCLInputPDBName" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "ComputeCLInputPDBName" in project "sphinx_fe.vcxproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeReferenceCLInput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceCLInput" in project "sphinx_fe.vcxproj".
+     1>Target "WarnCompileDuplicatedFilename" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'sphinx_fe.c' != 'sphinx_fe.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+     1>Done building target "WarnCompileDuplicatedFilename" in project "sphinx_fe.vcxproj".
+     1>Target "MakeDirsForCl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForCl" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "_SelectedFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "_SelectedFiles" in project "sphinx_fe.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "_SelectedFiles" skipped. Previously built successfully.
+     1>Target "SelectCustomBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "SelectCustomBuild" in project "sphinx_fe.vcxproj".
+     1>Target "SelectClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ClCompile" depends on it):
+     1>Done building target "SelectClCompile" in project "sphinx_fe.vcxproj".
+       Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('..\..\src\sphinx_fe\sphinx_fe.c' != '' and 'false' == 'True').
+     1>Target "ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+       Task "Delete"
+       Done executing task "Delete".
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('NotUsing' == 'Create' and ''!='true' and '' == '').
+       Using "CL" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "CL"
+         Forcing recompile of all source files due to missing PDB ".\Debug\Win32/vc120.pdb".
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=1000
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include/win32 /I../../include /I../../src/libsphinxbase/fe /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _CONSOLE /D HAVE_CONFIG_H /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\Win32/" /Fd".\Debug\Win32/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\sphinx_fe\sphinx_fe.c
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\Debug\Win32\sphinx_fe.tlog /r C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\SPHINX_FE\SPHINX_FE.C /b MSBuildConsole_CancelEvent40a17c87a1ec4623bba5f5626f4f56fd  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  /c /I../../include/win32 /I../../include /I../../src/libsphinxbase/fe /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D SPHINX_DLL /D _CONSOLE /D HAVE_CONFIG_H /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\Win32/" /Fd".\Debug\Win32/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\sphinx_fe\sphinx_fe.c
+         sphinx_fe.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\sphinx_fe\sphinx_fe.c(371): warning C4018: '<' : signed/unsigned mismatch
+       Done executing task "CL".
+     1>Done building target "ClCompile" in project "sphinx_fe.vcxproj".
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('..\..\src\sphinx_fe\sphinx_fe.c' != '' and 'false' == 'True').
+     1>Target "AfterClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "AfterClCompile" in project "sphinx_fe.vcxproj".
+     1>Target "_ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ClCompile" in project "sphinx_fe.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+     1>Target "BeforeResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "BeforeResourceCompile" in project "sphinx_fe.vcxproj".
+     1>Target "MakeDirsForResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForResourceCompile" in project "sphinx_fe.vcxproj".
+       Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+     1>Target "AfterResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "AfterResourceCompile" in project "sphinx_fe.vcxproj".
+     1>Target "_ResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ResourceCompile" in project "sphinx_fe.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+     1>Target "AfterBuildCompileEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "AfterBuildCompileEvent" in project "sphinx_fe.vcxproj".
+     1>Target "_BuildCompileAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "BuildCompile" depends on it):
+     1>Done building target "_BuildCompileAction" in project "sphinx_fe.vcxproj".
+     1>Target "BuildCompile" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildCompile" in project "sphinx_fe.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildLinkTraverse" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '..\sphinxbase\sphinxbase.vcxproj' != '' and '..\sphinxbase\sphinxbase.vcxproj' != ''  and 'true' == 'true').
+     1>Done building target "BuildLinkTraverse" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeLegacyManifestEmbedding" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+     1>Done building target "ComputeLegacyManifestEmbedding" in project "sphinx_fe.vcxproj".
+     1>Target "BeforeLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "BeforeLink" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeRCOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeRCOutputs" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeRCGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeRCGeneratedLinkInputs" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeManifestGeneratedLinkerInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeCustomBuildOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "ComputeCustomBuildOutput" in project "sphinx_fe.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+     1>Target "ComputeCLOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeCLOutputs" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeCLGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeCLGeneratedLinkInputs" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeLinkInputsFromProject" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeLinkInputsFromProject" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedLinkLib" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ComputeReferenceLinkInputs" depends on it):
+       Task "MSBuild"
+         Global Properties:
+           Configuration=Debug
+           Platform=Win32
+     1>Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (1) is building "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+   2:3>Building with tools version "12.0".
+       Target "InvalidPlatformFortrueError" skipped, due to false condition; ('$(EnableRedirectPlatform)' == 'true' and '$(DesignTimeBuild)'!='true') was evaluated as ('' == 'true' and ''!='true').
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "GetResolvedLinkLibs" skipped. Previously built successfully.
+   2:3>Done Building Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Done executing task "MSBuild".
+     1>Done building target "ResolvedLinkLib" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeResolveLinkObj" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "ComputeReferenceLinkInputs" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.UseLibraryDependencyInputs)'=='true') was evaluated as ('false'=='true').
+     1>Done building target "ComputeResolveLinkObj" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeReferenceLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ProjectReferenceToLink.ProjectType)' == 'DynamicLibrary' and '$(WindowsAppContainer)' == 'true' and '%(ProjectReferenceToLink.WindowsAppContainer)' != 'true') was evaluated as ('DynamicLibrary' == 'DynamicLibrary' and 'false' == 'true' and 'false' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceLinkInputs" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeManifestInputsTargets" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestInputsTargets" in project "sphinx_fe.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('MT' == 'LINK' and '' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "AssignTargetPaths" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+     1>Done building target "AssignTargetPaths" in project "sphinx_fe.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+     1>Target "SplitResourcesByCulture" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+     1>Done building target "SplitResourcesByCulture" in project "sphinx_fe.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "CreateCustomManifestResourceNames" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareResourceNames" depends on it):
+     1>Done building target "CreateCustomManifestResourceNames" in project "sphinx_fe.vcxproj".
+     1>Target "PrepareResourceNames" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "PrepareResourceNames" in project "sphinx_fe.vcxproj".
+     1>Target "MakeDirsForLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForLink" in project "sphinx_fe.vcxproj".
+     1>Target "DoLinkOutputFilesMatch" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe' != '' and 'C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\bin\Debug\Win32\sphinx_fe.exe' != 'C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\bin\Debug\Win32\sphinx_fe.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe' != '' and '.exe' != '' and '.exe' != '.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe' != '' and 'sphinx_fe' != '' and 'sphinx_fe' != 'sphinx_fe').
+       Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Console' == '' or 'Console' == 'NotSet')).
+     1>Done building target "DoLinkOutputFilesMatch" in project "sphinx_fe.vcxproj".
+     1>Target "PreLinkEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreLinkEvent" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeLinkSwitches" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Link" depends on it):
+     1>Done building target "ComputeLinkSwitches" in project "sphinx_fe.vcxproj".
+     1>Target "Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Using "Link" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "Link"
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=1016
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\../../bin/Debug/Win32/sphinx_fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\Win32/sphinx_fe.obj
+         "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\bin\Debug\Win32\sphinxbase.lib"
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\Debug\Win32\sphinx_fe.tlog /r "C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\BIN\DEBUG\WIN32\SPHINXBASE.LIB|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINX_FE\DEBUG\WIN32\SPHINX_FE.OBJ" /b MSBuildConsole_CancelEvent33f7cccb83a9439a96c6fcbbb6a0182f  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\../../bin/Debug/Win32/sphinx_fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\Win32/sphinx_fe.obj
+         "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\bin\Debug\Win32\sphinxbase.lib"
+       Done executing task "Link".
+       Task "Message"
+         sphinx_fe.vcxproj -> C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinx_fe.exe
+       Done executing task "Message".
+     1>Done building target "Link" in project "sphinx_fe.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+     1>Target "ComputeLinkImportLibraryOutputsForClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
+     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "sphinx_fe.vcxproj".
+     1>Target "AfterLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_Link" depends on it):
+     1>Done building target "AfterLink" in project "sphinx_fe.vcxproj".
+     1>Target "_Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Link" in project "sphinx_fe.vcxproj".
+     1>Target "_ALink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_ALink" in project "sphinx_fe.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+     1>Target "_Manifest" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+     1>Done building target "_Manifest" in project "sphinx_fe.vcxproj".
+     1>Target "RegisterOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+     1>Done building target "RegisterOutput" in project "sphinx_fe.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedXDCMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('.vcxproj' == '.vcxproj' and '..\sphinxbase\sphinxbase.vcxproj' != '' and '..\sphinxbase\sphinxbase.vcxproj' != '' and '' == 'true').
+     1>Done building target "ResolvedXDCMake" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeCLCompileGeneratedXDCFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_XdcMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "sphinx_fe.vcxproj".
+     1>Target "MakeDirsForXdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForXdcMake" in project "sphinx_fe.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+     1>Target "_XdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_XdcMake" in project "sphinx_fe.vcxproj".
+     1>Target "ComputeCLCompileGeneratedSbrFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BscMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "sphinx_fe.vcxproj".
+     1>Target "MakeDirsForBscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForBscMake" in project "sphinx_fe.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "_BscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_BscMake" in project "sphinx_fe.vcxproj".
+       Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+       Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+     1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "sphinx_fe.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+     1>Target "CreateSatelliteAssemblies" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "CreateSatelliteAssemblies" in project "sphinx_fe.vcxproj".
+     1>Target "_Appverifier" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Appverifier" in project "sphinx_fe.vcxproj".
+     1>Target "_Deploy" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Deploy" in project "sphinx_fe.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "sphinx_fe.vcxproj".
+     1>Target "GetCopyToOutputDirectoryItems" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild"
+         Global Properties:
+           Configuration=Debug
+           Platform=Win32
+     1>Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (1) is building "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (2:4) on node 2 (GetCopyToOutputDirectoryItems target(s)).
+   2:4>Building with tools version "12.0".
+       Target "InvalidPlatformFortrueError" skipped, due to false condition; ('$(EnableRedirectPlatform)' == 'true' and '$(DesignTimeBuild)'!='true') was evaluated as ('' == 'true' and ''!='true').
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "GetCopyToOutputDirectoryItems" skipped. Previously built successfully.
+   2:4>Done Building Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (GetCopyToOutputDirectoryItems target(s)).
+     1>Done executing task "MSBuild".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryItems" in project "sphinx_fe.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+     1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CopySourceItemsToOutputDirectory" in project "sphinx_fe.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+     1>Target "_CheckForCompileOutputs" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CheckForCompileOutputs" in project "sphinx_fe.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Target "CopyFilesToOutputDirectory" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+     1>Done building target "CopyFilesToOutputDirectory" in project "sphinx_fe.vcxproj".
+     1>Target "PrepareForRun" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "PrepareForRun" in project "sphinx_fe.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "PostBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PostBuildEvent" in project "sphinx_fe.vcxproj".
+     1>Target "_BuildLinkAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_BuildLinkAction" in project "sphinx_fe.vcxproj".
+     1>Target "BuildLink" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildLink" in project "sphinx_fe.vcxproj".
+       Target "CreateTfsBuildInfoResource" skipped, due to false condition; ( $(AddBuildInfoToAssembly)==true ) was evaluated as ( false==true ).
+     1>Target "AfterBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+     1>Done building target "AfterBuild" in project "sphinx_fe.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Build" depends on it):
+       Task "Delete"
+         Deleting file "Debug\Win32\sphinx_fe.tlog\unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "Debug\Win32\sphinx_fe.tlog\sphinx_fe.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "sphinx_fe.vcxproj".
+     1>Target "Build" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "Build" in project "sphinx_fe.vcxproj".
+     1>Target "AfterRebuild" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "AfterRebuild" in project "sphinx_fe.vcxproj".
+     1>Target "Rebuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (entry point):
+     1>Done building target "Rebuild" in project "sphinx_fe.vcxproj".
+     1>Done Building Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinx_fe\sphinx_fe.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36

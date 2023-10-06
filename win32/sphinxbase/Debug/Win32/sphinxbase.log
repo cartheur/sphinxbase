@@ -1,0 +1,792 @@
+﻿Build started 09-Dec-18 14:04:15.
+     1>Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" on node 2 (Rebuild target(s)).
+     1>Building with tools version "12.0".
+       Target "InvalidPlatformFortrueError" skipped, due to false condition; ('$(EnableRedirectPlatform)' == 'true' and '$(DesignTimeBuild)'!='true') was evaluated as ('' == 'true' and ''!='true').
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (entry point):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=Win32
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\' != '' and !HasTrailingSlash('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\Win32\' != '' and !HasTrailingSlash('Debug\Win32\')).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "sphinxbase.vcxproj".
+     1>Target "_PrepareForRebuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "_PrepareForRebuild" in project "sphinxbase.vcxproj".
+     1>Target "BeforeRebuild" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "BeforeRebuild" in project "sphinxbase.vcxproj".
+     1>Target "_PrepareForClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+       Task "Delete" skipped, due to false condition; (Exists($(LastBuildState))) was evaluated as (Exists(Debug\Win32\sphinxbase.tlog\sphinxbase.lastbuildstate)).
+     1>Done building target "_PrepareForClean" in project "sphinxbase.vcxproj".
+     1>Target "BeforeClean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+     1>Done building target "BeforeClean" in project "sphinxbase.vcxproj".
+       Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'library' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\sphinxbase.vcxproj.UnmanagedRegistration.cache')).
+     1>Target "CoreClean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+         File "Debug\Win32\\TempCA\sphinxbase.pdb" doesn't exist. Skipping.
+         File "Debug\Win32\\TempCA\sphinxbase.dll" doesn't exist. Skipping.
+       Done executing task "Delete".
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "FindUnderPath"
+         Comparison path is "C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\".
+       Done executing task "FindUnderPath".
+       Task "FindUnderPath"
+         Comparison path is "Debug\Win32\".
+       Done executing task "FindUnderPath".
+       Task "Delete"
+       Done executing task "Delete".
+       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "CoreClean" in project "sphinxbase.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CleanReferencedProjects" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "sphinxbase.vcxproj".
+     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CleanReferencedProjects" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "sphinxbase.vcxproj".
+     1>Target "CleanReferencedProjects" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+     1>Done building target "CleanReferencedProjects" in project "sphinxbase.vcxproj".
+     1>Target "CleanPublishFolder" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+       Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\app.publish\'=='C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\app.publish\' and Exists('C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\app.publish\')).
+     1>Done building target "CleanPublishFolder" in project "sphinxbase.vcxproj".
+     1>Target "AfterClean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+     1>Done building target "AfterClean" in project "sphinxbase.vcxproj".
+       Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+     1>Target "BeforeCppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CppClean" depends on it):
+     1>Done building target "BeforeCppClean" in project "sphinxbase.vcxproj".
+     1>Target "CoreCppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CppClean" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Using "CppClean" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "CppClean"
+       Done executing task "CppClean".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "CoreCppClean" in project "sphinxbase.vcxproj".
+     1>Target "AfterCppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CppClean" depends on it):
+     1>Done building target "AfterCppClean" in project "sphinxbase.vcxproj".
+     1>Target "PGInstrumentedClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CppClean" depends on it):
+       Task "Delete"
+       Done executing task "Delete".
+     1>Done building target "PGInstrumentedClean" in project "sphinxbase.vcxproj".
+     1>Target "CppClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Clean" depends on it):
+     1>Done building target "CppClean" in project "sphinxbase.vcxproj".
+     1>Target "Clean" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "Clean" in project "sphinxbase.vcxproj".
+     1>Target "_PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+     1>Done building target "_PrepareForBuild" in project "sphinxbase.vcxproj".
+     1>Target "_PrepareForReferenceResolution" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveReferences" depends on it):
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "_PrepareForReferenceResolution" in project "sphinxbase.vcxproj".
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('..\..\src\libsphinxad\ad_win32.c;..\..\src\libsphinxbase\feat\agc.c;..\..\src\libsphinxbase\feat\cmn.c;..\..\src\libsphinxbase\feat\cmn_prior.c;..\..\src\libsphinxbase\feat\feat.c;..\..\src\libsphinxbase\feat\lda.c;..\..\src\libsphinxbase\fe\fe_interface.c;..\..\src\libsphinxbase\fe\fe_noise.c;..\..\src\libsphinxbase\fe\fe_prespch_buf.c;..\..\src\libsphinxbase\fe\fe_sigproc.c;..\..\src\libsphinxbase\fe\fe_warp_affine.c;..\..\src\libsphinxbase\fe\fe_warp.c;..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c;..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c;..\..\src\libsphinxbase\fe\fixlog.c;..\..\src\libsphinxbase\fe\yin.c;..\..\src\libsphinxbase\lm\fsg_model.c;..\..\src\libsphinxbase\lm\jsgf.c;..\..\src\libsphinxbase\lm\jsgf_parser.c;..\..\src\libsphinxbase\lm\jsgf_scanner.c;..\..\src\libsphinxbase\lm\ngrams_raw.c;..\..\src\libsphinxbase\lm\lm_trie.c;..\..\src\libsphinxbase\lm\lm_trie_quant.c;..\..\src\libsphinxbase\lm\ngram_model.c;..\..\src\libsphinxbase\lm\ngram_model_set.c;..\..\src\libsphinxbase\lm\ngram_model_trie.c;..\..\src\libsphinxbase\util\bio.c;..\..\src\libsphinxbase\util\bitarr.c;..\..\src\libsphinxbase\util\bitvec.c;..\..\src\libsphinxbase\util\blas_lite.c;..\..\src\libsphinxbase\util\case.c;..\..\src\libsphinxbase\util\ckd_alloc.c;..\..\src\libsphinxbase\util\cmd_ln.c;..\..\src\libsphinxbase\util\dtoa.c;..\..\src\libsphinxbase\util\err.c;..\..\src\libsphinxbase\util\f2c_lite.c;..\..\src\libsphinxbase\util\filename.c;..\..\src\libsphinxbase\util\genrand.c;..\..\src\libsphinxbase\util\glist.c;..\..\src\libsphinxbase\util\hash_table.c;..\..\src\libsphinxbase\util\heap.c;..\..\src\libsphinxbase\util\listelem_alloc.c;..\..\src\libsphinxbase\util\logmath.c;..\..\src\libsphinxbase\util\matrix.c;..\..\src\libsphinxbase\util\mmio.c;..\..\src\libsphinxbase\util\pio.c;..\..\src\libsphinxbase\util\priority_queue.c;..\..\src\libsphinxbase\util\profile.c;..\..\src\libsphinxbase\util\sbthread.c;..\..\src\libsphinxbase\util\slamch.c;..\..\src\libsphinxbase\util\slapack_lite.c;..\..\src\libsphinxbase\util\strfuncs.c'!='' and 'false'=='true' and '' != 'false').
+     1>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "BeforeResolveReferences" in project "sphinxbase.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+       Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+     1>Target "ResolveProjectReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveReferences" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' != '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' == '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+     1>Done building target "ResolveProjectReferences" in project "sphinxbase.vcxproj".
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+     1>Target "GetFrameworkPaths" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+     1>Done building target "GetFrameworkPaths" in project "sphinxbase.vcxproj".
+       Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     1>Target "GetReferenceAssemblyPaths" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Done building target "GetReferenceAssemblyPaths" in project "sphinxbase.vcxproj".
+     1>Target "SetBuildDefaultEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareForBuild" depends on it):
+       Using "SetEnv" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "SetEnv"
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\ImageMagick-6.9.0-Q16;C:\Program Files\Java\jdk1.7.0_51\bin\javaw.exe;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Inkscape-0.48\python\;C:\Program Files (x86)\Inkscape-0.48\python\DLLs;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Common Files\GTK\2.0\bin;C:\Program Files\Cepstral\bin;C:\Program Files (x86)\Cepstral\bin;C:\Program Files\Git\cmd;C:\Program Files\Anaconda3;C:\Program Files\Anaconda3\Scripts;C:\Program Files\Anaconda3\Library\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\PROGRA~2\EPO_OLF5\fm\lib;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Ruby200-x64\bin;C:\Program Files (x86)\FastFieldSolvers\FastHenry2\Utilities;C:\Program Files (x86)\FastFieldSolvers\FastCap2\Utilities;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files\Java\jdk1.7.0_51\bin;c:\Program Files\Java\jre1.8.0_101\bin;C:\Program Files (x86)\Torch5 0.8.0\bin;C:\aeonWorkingDirectory\dotnetcore\Microsoft VS Code\bin;C:\Users\malfactor\.dotnet\tools;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+       Done executing task "SetEnv".
+     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "sphinxbase.vcxproj".
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "GetResolvedWinMD" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareForBuild" depends on it):
+     1>Done building target "GetResolvedWinMD" in project "sphinxbase.vcxproj".
+     1>Target "PlatformPrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(ConfigurationPlatformExists)' != 'true') was evaluated as ('true' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(ToolsetTargetsFound)' != 'true') was evaluated as ('true' != 'true').
+     1>Done building target "PlatformPrepareForBuild" in project "sphinxbase.vcxproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+     1>Target "SetCABuildNativeEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareForBuild" depends on it):
+       Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Build.Tasks.v12.0.dll".
+       Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
+       Task "SetEnvironmentVariable"
+       Done executing task "SetEnvironmentVariable".
+     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "sphinxbase.vcxproj".
+     1>Target "PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'DynamicLibrary'!='Application' and 'DynamicLibrary'!='DynamicLibrary' and 'DynamicLibrary'!='StaticLibrary').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and 'v120'=='v90').
+       Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Windows Kits\8.1\'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_MBCS_Using)' == 'true' and '$(_MBCS_Installed)' != 'true' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' == 'true' and '' != 'true' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) was evaluated as ('' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "PrepareForBuild" in project "sphinxbase.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('..\..\src\libsphinxad\ad_win32.c;..\..\src\libsphinxbase\feat\agc.c;..\..\src\libsphinxbase\feat\cmn.c;..\..\src\libsphinxbase\feat\cmn_prior.c;..\..\src\libsphinxbase\feat\feat.c;..\..\src\libsphinxbase\feat\lda.c;..\..\src\libsphinxbase\fe\fe_interface.c;..\..\src\libsphinxbase\fe\fe_noise.c;..\..\src\libsphinxbase\fe\fe_prespch_buf.c;..\..\src\libsphinxbase\fe\fe_sigproc.c;..\..\src\libsphinxbase\fe\fe_warp_affine.c;..\..\src\libsphinxbase\fe\fe_warp.c;..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c;..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c;..\..\src\libsphinxbase\fe\fixlog.c;..\..\src\libsphinxbase\fe\yin.c;..\..\src\libsphinxbase\lm\fsg_model.c;..\..\src\libsphinxbase\lm\jsgf.c;..\..\src\libsphinxbase\lm\jsgf_parser.c;..\..\src\libsphinxbase\lm\jsgf_scanner.c;..\..\src\libsphinxbase\lm\ngrams_raw.c;..\..\src\libsphinxbase\lm\lm_trie.c;..\..\src\libsphinxbase\lm\lm_trie_quant.c;..\..\src\libsphinxbase\lm\ngram_model.c;..\..\src\libsphinxbase\lm\ngram_model_set.c;..\..\src\libsphinxbase\lm\ngram_model_trie.c;..\..\src\libsphinxbase\util\bio.c;..\..\src\libsphinxbase\util\bitarr.c;..\..\src\libsphinxbase\util\bitvec.c;..\..\src\libsphinxbase\util\blas_lite.c;..\..\src\libsphinxbase\util\case.c;..\..\src\libsphinxbase\util\ckd_alloc.c;..\..\src\libsphinxbase\util\cmd_ln.c;..\..\src\libsphinxbase\util\dtoa.c;..\..\src\libsphinxbase\util\err.c;..\..\src\libsphinxbase\util\f2c_lite.c;..\..\src\libsphinxbase\util\filename.c;..\..\src\libsphinxbase\util\genrand.c;..\..\src\libsphinxbase\util\glist.c;..\..\src\libsphinxbase\util\hash_table.c;..\..\src\libsphinxbase\util\heap.c;..\..\src\libsphinxbase\util\listelem_alloc.c;..\..\src\libsphinxbase\util\logmath.c;..\..\src\libsphinxbase\util\matrix.c;..\..\src\libsphinxbase\util\mmio.c;..\..\src\libsphinxbase\util\pio.c;..\..\src\libsphinxbase\util\priority_queue.c;..\..\src\libsphinxbase\util\profile.c;..\..\src\libsphinxbase\util\sbthread.c;..\..\src\libsphinxbase\util\slamch.c;..\..\src\libsphinxbase\util\slapack_lite.c;..\..\src\libsphinxbase\util\strfuncs.c'!='' and 'false'=='true' and '' != 'false').
+     1>Target "GetInstalledSDKLocations" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveSDKReferences" depends on it):
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+     1>Done building target "GetInstalledSDKLocations" in project "sphinxbase.vcxproj".
+     1>Target "ResolveSDKReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ResolveSDKReferences" in project "sphinxbase.vcxproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+     1>Target "ExpandSDKReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ExpandSDKReferences" in project "sphinxbase.vcxproj".
+     1>Target "ResolveAssemblyReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveReferences" depends on it):
+       Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+     1>Done building target "ResolveAssemblyReferences" in project "sphinxbase.vcxproj".
+       Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+       Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and '' == 'true' and Exists('Debug\Win32\sphinxbase.vcxproj.sphinxbase.dll.config')).
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+     1>Target "AfterResolveReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "AfterResolveReferences" in project "sphinxbase.vcxproj".
+       Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+     1>Target "ResolveReferences" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+     1>Done building target "ResolveReferences" in project "sphinxbase.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+     1>Target "InitializeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Creating "Debug\Win32\sphinxbase.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Done executing task "Touch".
+     1>Done building target "InitializeBuildStatus" in project "sphinxbase.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildGenerateSourcesTraverse" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "BuildGenerateSources" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "BuildGenerateSourcesTraverse" in project "sphinxbase.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "BeforeBuildGenerateSources" in project "sphinxbase.vcxproj".
+     1>Target "PreBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreBuildEvent" in project "sphinxbase.vcxproj".
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+     1>Target "_Xsd" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Xsd" in project "sphinxbase.vcxproj".
+     1>Target "MakeDirsForMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Midl" depends on it):
+       Task "Makedir"
+       Done executing task "Makedir".
+     1>Done building target "MakeDirsForMidl" in project "sphinxbase.vcxproj".
+       Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeMIDLGeneratedCompileInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "sphinxbase.vcxproj".
+     1>Target "AfterMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "AfterMidl" in project "sphinxbase.vcxproj".
+     1>Target "_Midl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Midl" in project "sphinxbase.vcxproj".
+     1>Target "AfterBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSources" in project "sphinxbase.vcxproj".
+     1>Target "AfterBuildGenerateSourcesEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSourcesEvent" in project "sphinxbase.vcxproj".
+     1>Target "_BuildGenerateSourcesAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "BuildGenerateSources" depends on it):
+     1>Done building target "_BuildGenerateSourcesAction" in project "sphinxbase.vcxproj".
+     1>Target "BuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildGenerateSources" in project "sphinxbase.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildCompileTraverse" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "BuildCompile" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildCompileTraverse" in project "sphinxbase.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "BeforeClCompile" in project "sphinxbase.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+     1>Target "ComputeCLInputPDBName" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "ComputeCLInputPDBName" in project "sphinxbase.vcxproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeReferenceCLInput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceCLInput" in project "sphinxbase.vcxproj".
+     1>Target "WarnCompileDuplicatedFilename" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ad_win32.c' != 'ad_win32.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'agc.c' != 'agc.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'cmn.c' != 'cmn.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'cmn_prior.c' != 'cmn_prior.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'feat.c' != 'feat.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'lda.c' != 'lda.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_interface.c' != 'fe_interface.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_noise.c' != 'fe_noise.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_prespch_buf.c' != 'fe_prespch_buf.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_sigproc.c' != 'fe_sigproc.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_warp_affine.c' != 'fe_warp_affine.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_warp.c' != 'fe_warp.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_warp_inverse_linear.c' != 'fe_warp_inverse_linear.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fe_warp_piecewise_linear.c' != 'fe_warp_piecewise_linear.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fixlog.c' != 'fixlog.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'yin.c' != 'yin.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'fsg_model.c' != 'fsg_model.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'jsgf.c' != 'jsgf.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'jsgf_parser.c' != 'jsgf_parser.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'jsgf_scanner.c' != 'jsgf_scanner.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ngrams_raw.c' != 'ngrams_raw.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'lm_trie.c' != 'lm_trie.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'lm_trie_quant.c' != 'lm_trie_quant.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ngram_model.c' != 'ngram_model.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ngram_model_set.c' != 'ngram_model_set.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ngram_model_trie.c' != 'ngram_model_trie.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'bio.c' != 'bio.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'bitarr.c' != 'bitarr.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'bitvec.c' != 'bitvec.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'blas_lite.c' != 'blas_lite.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'case.c' != 'case.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ckd_alloc.c' != 'ckd_alloc.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'cmd_ln.c' != 'cmd_ln.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'dtoa.c' != 'dtoa.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'err.c' != 'err.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'f2c_lite.c' != 'f2c_lite.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'filename.c' != 'filename.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'genrand.c' != 'genrand.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'glist.c' != 'glist.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'hash_table.c' != 'hash_table.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'heap.c' != 'heap.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'listelem_alloc.c' != 'listelem_alloc.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'logmath.c' != 'logmath.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'matrix.c' != 'matrix.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'mmio.c' != 'mmio.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'pio.c' != 'pio.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'priority_queue.c' != 'priority_queue.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'profile.c' != 'profile.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'sbthread.c' != 'sbthread.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'slamch.c' != 'slamch.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'slapack_lite.c' != 'slapack_lite.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'strfuncs.c' != 'strfuncs.c' and '.\Debug\Win32/' == '.\Debug\Win32/').
+     1>Done building target "WarnCompileDuplicatedFilename" in project "sphinxbase.vcxproj".
+     1>Target "MakeDirsForCl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForCl" in project "sphinxbase.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+     1>Target "_SelectedFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "_SelectedFiles" in project "sphinxbase.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "_SelectedFiles" skipped. Previously built successfully.
+     1>Target "SelectCustomBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "SelectCustomBuild" in project "sphinxbase.vcxproj".
+     1>Target "SelectClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ClCompile" depends on it):
+     1>Done building target "SelectClCompile" in project "sphinxbase.vcxproj".
+       Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('..\..\src\libsphinxad\ad_win32.c;..\..\src\libsphinxbase\feat\agc.c;..\..\src\libsphinxbase\feat\cmn.c;..\..\src\libsphinxbase\feat\cmn_prior.c;..\..\src\libsphinxbase\feat\feat.c;..\..\src\libsphinxbase\feat\lda.c;..\..\src\libsphinxbase\fe\fe_interface.c;..\..\src\libsphinxbase\fe\fe_noise.c;..\..\src\libsphinxbase\fe\fe_prespch_buf.c;..\..\src\libsphinxbase\fe\fe_sigproc.c;..\..\src\libsphinxbase\fe\fe_warp_affine.c;..\..\src\libsphinxbase\fe\fe_warp.c;..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c;..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c;..\..\src\libsphinxbase\fe\fixlog.c;..\..\src\libsphinxbase\fe\yin.c;..\..\src\libsphinxbase\lm\fsg_model.c;..\..\src\libsphinxbase\lm\jsgf.c;..\..\src\libsphinxbase\lm\jsgf_parser.c;..\..\src\libsphinxbase\lm\jsgf_scanner.c;..\..\src\libsphinxbase\lm\ngrams_raw.c;..\..\src\libsphinxbase\lm\lm_trie.c;..\..\src\libsphinxbase\lm\lm_trie_quant.c;..\..\src\libsphinxbase\lm\ngram_model.c;..\..\src\libsphinxbase\lm\ngram_model_set.c;..\..\src\libsphinxbase\lm\ngram_model_trie.c;..\..\src\libsphinxbase\util\bio.c;..\..\src\libsphinxbase\util\bitarr.c;..\..\src\libsphinxbase\util\bitvec.c;..\..\src\libsphinxbase\util\blas_lite.c;..\..\src\libsphinxbase\util\case.c;..\..\src\libsphinxbase\util\ckd_alloc.c;..\..\src\libsphinxbase\util\cmd_ln.c;..\..\src\libsphinxbase\util\dtoa.c;..\..\src\libsphinxbase\util\err.c;..\..\src\libsphinxbase\util\f2c_lite.c;..\..\src\libsphinxbase\util\filename.c;..\..\src\libsphinxbase\util\genrand.c;..\..\src\libsphinxbase\util\glist.c;..\..\src\libsphinxbase\util\hash_table.c;..\..\src\libsphinxbase\util\heap.c;..\..\src\libsphinxbase\util\listelem_alloc.c;..\..\src\libsphinxbase\util\logmath.c;..\..\src\libsphinxbase\util\matrix.c;..\..\src\libsphinxbase\util\mmio.c;..\..\src\libsphinxbase\util\pio.c;..\..\src\libsphinxbase\util\priority_queue.c;..\..\src\libsphinxbase\util\profile.c;..\..\src\libsphinxbase\util\sbthread.c;..\..\src\libsphinxbase\util\slamch.c;..\..\src\libsphinxbase\util\slapack_lite.c;..\..\src\libsphinxbase\util\strfuncs.c' != '' and 'false' == 'True').
+     1>Target "ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+       Task "Delete"
+       Done executing task "Delete".
+       Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('NotUsing' == 'Create' and ''!='true' and '' == '').
+       Using "CL" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "CL"
+         Forcing recompile of all source files due to missing PDB ".\Debug\Win32/vc120.pdb".
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=968
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include/win32 /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _USRDLL /D SPHINX_DLL /D SPHINXBASE_EXPORTS /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\Win32/" /Fd".\Debug\Win32/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\libsphinxad\ad_win32.c ..\..\src\libsphinxbase\feat\agc.c ..\..\src\libsphinxbase\feat\cmn.c ..\..\src\libsphinxbase\feat\cmn_prior.c ..\..\src\libsphinxbase\feat\feat.c ..\..\src\libsphinxbase\feat\lda.c ..\..\src\libsphinxbase\fe\fe_interface.c ..\..\src\libsphinxbase\fe\fe_noise.c ..\..\src\libsphinxbase\fe\fe_prespch_buf.c ..\..\src\libsphinxbase\fe\fe_sigproc.c ..\..\src\libsphinxbase\fe\fe_warp_affine.c ..\..\src\libsphinxbase\fe\fe_warp.c ..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c ..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c ..\..\src\libsphinxbase\fe\fixlog.c ..\..\src\libsphinxbase\fe\yin.c ..\..\src\libsphinxbase\lm\fsg_model.c ..\..\src\libsphinxbase\lm\jsgf.c ..\..\src\libsphinxbase\lm\jsgf_parser.c ..\..\src\libsphinxbase\lm\jsgf_scanner.c ..\..\src\libsphinxbase\lm\ngrams_raw.c ..\..\src\libsphinxbase\lm\lm_trie.c ..\..\src\libsphinxbase\lm\lm_trie_quant.c ..\..\src\libsphinxbase\lm\ngram_model.c ..\..\src\libsphinxbase\lm\ngram_model_set.c ..\..\src\libsphinxbase\lm\ngram_model_trie.c ..\..\src\libsphinxbase\util\bio.c ..\..\src\libsphinxbase\util\bitarr.c ..\..\src\libsphinxbase\util\bitvec.c ..\..\src\libsphinxbase\util\blas_lite.c ..\..\src\libsphinxbase\util\case.c ..\..\src\libsphinxbase\util\ckd_alloc.c ..\..\src\libsphinxbase\util\cmd_ln.c ..\..\src\libsphinxbase\util\dtoa.c ..\..\src\libsphinxbase\util\err.c ..\..\src\libsphinxbase\util\f2c_lite.c ..\..\src\libsphinxbase\util\filename.c ..\..\src\libsphinxbase\util\genrand.c ..\..\src\libsphinxbase\util\glist.c ..\..\src\libsphinxbase\util\hash_table.c ..\..\src\libsphinxbase\util\heap.c ..\..\src\libsphinxbase\util\listelem_alloc.c ..\..\src\libsphinxbase\util\logmath.c ..\..\src\libsphinxbase\util\matrix.c ..\..\src\libsphinxbase\util\mmio.c ..\..\src\libsphinxbase\util\pio.c ..\..\src\libsphinxbase\util\priority_queue.c ..\..\src\libsphinxbase\util\profile.c ..\..\src\libsphinxbase\util\sbthread.c ..\..\src\libsphinxbase\util\slamch.c ..\..\src\libsphinxbase\util\slapack_lite.c ..\..\src\libsphinxbase\util\strfuncs.c
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\Debug\Win32\sphinxbase.tlog /r "C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXAD\AD_WIN32.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FEAT\AGC.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FEAT\CMN.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FEAT\CMN_PRIOR.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FEAT\FEAT.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FEAT\LDA.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_INTERFACE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_NOISE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_PRESPCH_BUF.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_SIGPROC.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_WARP.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_WARP_AFFINE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_WARP_INVERSE_LINEAR.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FE_WARP_PIECEWISE_LINEAR.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\FIXLOG.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\FE\YIN.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\FSG_MODEL.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\JSGF.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\JSGF_PARSER.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\JSGF_SCANNER.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\LM_TRIE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\LM_TRIE_QUANT.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\NGRAMS_RAW.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\NGRAM_MODEL.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\NGRAM_MODEL_SET.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\LM\NGRAM_MODEL_TRIE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\BIO.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\BITARR.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\BITVEC.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\BLAS_LITE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\CASE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\CKD_ALLOC.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\CMD_LN.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\DTOA.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\ERR.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\F2C_LITE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\FILENAME.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\GENRAND.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\GLIST.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\HASH_TABLE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\HEAP.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\LISTELEM_ALLOC.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\LOGMATH.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\MATRIX.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\MMIO.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\PIO.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\PRIORITY_QUEUE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\PROFILE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\SBTHREAD.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\SLAMCH.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\SLAPACK_LITE.C|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\SRC\LIBSPHINXBASE\UTIL\STRFUNCS.C" /b MSBuildConsole_CancelEvent0666e750ffc74720b535a19810f3e036  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  /c /I../../include/win32 /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _USRDLL /D SPHINX_DLL /D SPHINXBASE_EXPORTS /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\Win32/" /Fd".\Debug\Win32/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\libsphinxad\ad_win32.c ..\..\src\libsphinxbase\feat\agc.c ..\..\src\libsphinxbase\feat\cmn.c ..\..\src\libsphinxbase\feat\cmn_prior.c ..\..\src\libsphinxbase\feat\feat.c ..\..\src\libsphinxbase\feat\lda.c ..\..\src\libsphinxbase\fe\fe_interface.c ..\..\src\libsphinxbase\fe\fe_noise.c ..\..\src\libsphinxbase\fe\fe_prespch_buf.c ..\..\src\libsphinxbase\fe\fe_sigproc.c ..\..\src\libsphinxbase\fe\fe_warp_affine.c ..\..\src\libsphinxbase\fe\fe_warp.c ..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c ..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c ..\..\src\libsphinxbase\fe\fixlog.c ..\..\src\libsphinxbase\fe\yin.c ..\..\src\libsphinxbase\lm\fsg_model.c ..\..\src\libsphinxbase\lm\jsgf.c ..\..\src\libsphinxbase\lm\jsgf_parser.c ..\..\src\libsphinxbase\lm\jsgf_scanner.c ..\..\src\libsphinxbase\lm\ngrams_raw.c ..\..\src\libsphinxbase\lm\lm_trie.c ..\..\src\libsphinxbase\lm\lm_trie_quant.c ..\..\src\libsphinxbase\lm\ngram_model.c ..\..\src\libsphinxbase\lm\ngram_model_set.c ..\..\src\libsphinxbase\lm\ngram_model_trie.c ..\..\src\libsphinxbase\util\bio.c ..\..\src\libsphinxbase\util\bitarr.c ..\..\src\libsphinxbase\util\bitvec.c ..\..\src\libsphinxbase\util\blas_lite.c ..\..\src\libsphinxbase\util\case.c ..\..\src\libsphinxbase\util\ckd_alloc.c ..\..\src\libsphinxbase\util\cmd_ln.c ..\..\src\libsphinxbase\util\dtoa.c ..\..\src\libsphinxbase\util\err.c ..\..\src\libsphinxbase\util\f2c_lite.c ..\..\src\libsphinxbase\util\filename.c ..\..\src\libsphinxbase\util\genrand.c ..\..\src\libsphinxbase\util\glist.c ..\..\src\libsphinxbase\util\hash_table.c ..\..\src\libsphinxbase\util\heap.c ..\..\src\libsphinxbase\util\listelem_alloc.c ..\..\src\libsphinxbase\util\logmath.c ..\..\src\libsphinxbase\util\matrix.c ..\..\src\libsphinxbase\util\mmio.c ..\..\src\libsphinxbase\util\pio.c ..\..\src\libsphinxbase\util\priority_queue.c ..\..\src\libsphinxbase\util\profile.c ..\..\src\libsphinxbase\util\sbthread.c ..\..\src\libsphinxbase\util\slamch.c ..\..\src\libsphinxbase\util\slapack_lite.c ..\..\src\libsphinxbase\util\strfuncs.c
+         strfuncs.c
+         slapack_lite.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\slapack_lite.c(1041): warning C4244: '=' : conversion from 'doublereal' to 'real', possible loss of data
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\slapack_lite.c(1046): warning C4244: '=' : conversion from 'double' to 'real', possible loss of data
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\slapack_lite.c(1074): warning C4244: '=' : conversion from 'doublereal' to 'real', possible loss of data
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\slapack_lite.c(1079): warning C4244: '=' : conversion from 'double' to 'real', possible loss of data
+         slamch.c
+         sbthread.c
+         profile.c
+         priority_queue.c
+         pio.c
+         mmio.c
+         matrix.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\matrix.c(71): warning C4244: '*=' : conversion from 'float64' to 'float32', possible loss of data
+         logmath.c
+         listelem_alloc.c
+         heap.c
+         hash_table.c
+         glist.c
+         genrand.c
+         filename.c
+         f2c_lite.c
+         err.c
+         dtoa.c
+         cmd_ln.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\cmd_ln.c(151): warning C4090: 'function' : different 'const' qualifiers
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\util\cmd_ln.c(332): warning C4090: 'function' : different 'const' qualifiers
+         Generating Code...
+         Compiling...
+         ckd_alloc.c
+         case.c
+         blas_lite.c
+         bitvec.c
+         bitarr.c
+         bio.c
+         ngram_model_trie.c
+         ngram_model_set.c
+         ngram_model.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\ngram_model.c(980): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+         lm_trie_quant.c
+         lm_trie.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\lm_trie.c(212): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\lm_trie.c(294): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\lm_trie.c(299): warning C4018: '<' : signed/unsigned mismatch
+         ngrams_raw.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\ngrams_raw.c(57): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\ngrams_raw.c(99): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\ngrams_raw.c(110): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\ngrams_raw.c(124): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         jsgf_scanner.c
+     1>jsgf_scanner.c(922): warning C4018: '<' : signed/unsigned mismatch
+     1>_jsgf_scanner.l(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>jsgf_scanner.c(1819): warning C4018: '<' : signed/unsigned mismatch
+         jsgf_parser.c
+         jsgf.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\jsgf.c(945): warning C4090: 'function' : different 'const' qualifiers
+         fsg_model.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\fsg_model.c(663): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\lm\fsg_model.c(866): warning C4244: 'function' : conversion from 'float32' to 'int', possible loss of data
+         yin.c
+         fixlog.c
+         fe_warp_piecewise_linear.c
+         fe_warp_inverse_linear.c
+         Generating Code...
+         Compiling...
+         fe_warp.c
+         fe_warp_affine.c
+         fe_sigproc.c
+         fe_prespch_buf.c
+         fe_noise.c
+         fe_interface.c
+         lda.c
+         feat.c
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\feat\feat.c(370): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\feat\feat.c(404): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\feat\feat.c(820): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\feat\feat.c(900): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\aeonworkingdirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\src\libsphinxbase\feat\feat.c(903): warning C4018: '<' : signed/unsigned mismatch
+         cmn_prior.c
+         cmn.c
+         agc.c
+         ad_win32.c
+         Generating Code...
+       Done executing task "CL".
+     1>Done building target "ClCompile" in project "sphinxbase.vcxproj".
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('..\..\src\libsphinxad\ad_win32.c;..\..\src\libsphinxbase\feat\agc.c;..\..\src\libsphinxbase\feat\cmn.c;..\..\src\libsphinxbase\feat\cmn_prior.c;..\..\src\libsphinxbase\feat\feat.c;..\..\src\libsphinxbase\feat\lda.c;..\..\src\libsphinxbase\fe\fe_interface.c;..\..\src\libsphinxbase\fe\fe_noise.c;..\..\src\libsphinxbase\fe\fe_prespch_buf.c;..\..\src\libsphinxbase\fe\fe_sigproc.c;..\..\src\libsphinxbase\fe\fe_warp_affine.c;..\..\src\libsphinxbase\fe\fe_warp.c;..\..\src\libsphinxbase\fe\fe_warp_inverse_linear.c;..\..\src\libsphinxbase\fe\fe_warp_piecewise_linear.c;..\..\src\libsphinxbase\fe\fixlog.c;..\..\src\libsphinxbase\fe\yin.c;..\..\src\libsphinxbase\lm\fsg_model.c;..\..\src\libsphinxbase\lm\jsgf.c;..\..\src\libsphinxbase\lm\jsgf_parser.c;..\..\src\libsphinxbase\lm\jsgf_scanner.c;..\..\src\libsphinxbase\lm\ngrams_raw.c;..\..\src\libsphinxbase\lm\lm_trie.c;..\..\src\libsphinxbase\lm\lm_trie_quant.c;..\..\src\libsphinxbase\lm\ngram_model.c;..\..\src\libsphinxbase\lm\ngram_model_set.c;..\..\src\libsphinxbase\lm\ngram_model_trie.c;..\..\src\libsphinxbase\util\bio.c;..\..\src\libsphinxbase\util\bitarr.c;..\..\src\libsphinxbase\util\bitvec.c;..\..\src\libsphinxbase\util\blas_lite.c;..\..\src\libsphinxbase\util\case.c;..\..\src\libsphinxbase\util\ckd_alloc.c;..\..\src\libsphinxbase\util\cmd_ln.c;..\..\src\libsphinxbase\util\dtoa.c;..\..\src\libsphinxbase\util\err.c;..\..\src\libsphinxbase\util\f2c_lite.c;..\..\src\libsphinxbase\util\filename.c;..\..\src\libsphinxbase\util\genrand.c;..\..\src\libsphinxbase\util\glist.c;..\..\src\libsphinxbase\util\hash_table.c;..\..\src\libsphinxbase\util\heap.c;..\..\src\libsphinxbase\util\listelem_alloc.c;..\..\src\libsphinxbase\util\logmath.c;..\..\src\libsphinxbase\util\matrix.c;..\..\src\libsphinxbase\util\mmio.c;..\..\src\libsphinxbase\util\pio.c;..\..\src\libsphinxbase\util\priority_queue.c;..\..\src\libsphinxbase\util\profile.c;..\..\src\libsphinxbase\util\sbthread.c;..\..\src\libsphinxbase\util\slamch.c;..\..\src\libsphinxbase\util\slapack_lite.c;..\..\src\libsphinxbase\util\strfuncs.c' != '' and 'false' == 'True').
+     1>Target "AfterClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "AfterClCompile" in project "sphinxbase.vcxproj".
+     1>Target "_ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ClCompile" in project "sphinxbase.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+     1>Target "BeforeResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "BeforeResourceCompile" in project "sphinxbase.vcxproj".
+     1>Target "MakeDirsForResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForResourceCompile" in project "sphinxbase.vcxproj".
+       Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+     1>Target "AfterResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "AfterResourceCompile" in project "sphinxbase.vcxproj".
+     1>Target "_ResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ResourceCompile" in project "sphinxbase.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+     1>Target "AfterBuildCompileEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "AfterBuildCompileEvent" in project "sphinxbase.vcxproj".
+     1>Target "_BuildCompileAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "BuildCompile" depends on it):
+     1>Done building target "_BuildCompileAction" in project "sphinxbase.vcxproj".
+     1>Target "BuildCompile" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildCompile" in project "sphinxbase.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildLinkTraverse" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildLinkTraverse" in project "sphinxbase.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeLegacyManifestEmbedding" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+     1>Done building target "ComputeLegacyManifestEmbedding" in project "sphinxbase.vcxproj".
+     1>Target "BeforeLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "BeforeLink" in project "sphinxbase.vcxproj".
+     1>Target "ComputeRCOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeRCOutputs" in project "sphinxbase.vcxproj".
+     1>Target "ComputeRCGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeRCGeneratedLinkInputs" in project "sphinxbase.vcxproj".
+     1>Target "ComputeManifestGeneratedLinkerInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "sphinxbase.vcxproj".
+     1>Target "ComputeCustomBuildOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "ComputeCustomBuildOutput" in project "sphinxbase.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+     1>Target "ComputeCLOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeCLOutputs" in project "sphinxbase.vcxproj".
+     1>Target "ComputeCLGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeCLGeneratedLinkInputs" in project "sphinxbase.vcxproj".
+     1>Target "ComputeLinkInputsFromProject" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeLinkInputsFromProject" in project "sphinxbase.vcxproj".
+       Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+     1>Target "ComputeManifestInputsTargets" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestInputsTargets" in project "sphinxbase.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('MT' == 'LINK' and '' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "AssignTargetPaths" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.cd'=='.manifest').
+     1>Done building target "AssignTargetPaths" in project "sphinxbase.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+     1>Target "SplitResourcesByCulture" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+     1>Done building target "SplitResourcesByCulture" in project "sphinxbase.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "CreateCustomManifestResourceNames" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareResourceNames" depends on it):
+     1>Done building target "CreateCustomManifestResourceNames" in project "sphinxbase.vcxproj".
+     1>Target "PrepareResourceNames" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "PrepareResourceNames" in project "sphinxbase.vcxproj".
+     1>Target "MakeDirsForLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForLink" in project "sphinxbase.vcxproj".
+     1>Target "DoLinkOutputFilesMatch" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('../../bin/Debug/Win32/sphinxbase.dll' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('../../bin/Debug/Win32/sphinxbase.dll' != '' and 'c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\bin\Debug\Win32\sphinxbase.dll' != 'C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\bin\Debug\Win32\sphinxbase.dll').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('../../bin/Debug/Win32/sphinxbase.dll' != '' and '.dll' != '' and '.dll' != '.dll').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('../../bin/Debug/Win32/sphinxbase.dll' != '' and 'sphinxbase' != '' and 'sphinxbase' != 'sphinxbase').
+       Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('' == '' or '' == 'NotSet')).
+     1>Done building target "DoLinkOutputFilesMatch" in project "sphinxbase.vcxproj".
+     1>Target "PreLinkEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreLinkEvent" in project "sphinxbase.vcxproj".
+     1>Target "ComputeLinkSwitches" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Link" depends on it):
+     1>Done building target "ComputeLinkSwitches" in project "sphinxbase.vcxproj".
+     1>Target "Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+       Using "Link" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Task "Link"
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=968
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/Debug/Win32/sphinxbase.dll" /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/Debug/Win32/sphinxbase.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../bin/Debug/Win32/sphinxbase.lib" /MACHINE:X86 /SAFESEH:NO /DLL .\Debug\Win32/ad_win32.obj
+         .\Debug\Win32/agc.obj
+         .\Debug\Win32/cmn.obj
+         .\Debug\Win32/cmn_prior.obj
+         .\Debug\Win32/feat.obj
+         .\Debug\Win32/lda.obj
+         .\Debug\Win32/fe_interface.obj
+         .\Debug\Win32/fe_noise.obj
+         .\Debug\Win32/fe_prespch_buf.obj
+         .\Debug\Win32/fe_sigproc.obj
+         .\Debug\Win32/fe_warp_affine.obj
+         .\Debug\Win32/fe_warp.obj
+         .\Debug\Win32/fe_warp_inverse_linear.obj
+         .\Debug\Win32/fe_warp_piecewise_linear.obj
+         .\Debug\Win32/fixlog.obj
+         .\Debug\Win32/yin.obj
+         .\Debug\Win32/fsg_model.obj
+         .\Debug\Win32/jsgf.obj
+         .\Debug\Win32/jsgf_parser.obj
+         .\Debug\Win32/jsgf_scanner.obj
+         .\Debug\Win32/ngrams_raw.obj
+         .\Debug\Win32/lm_trie.obj
+         .\Debug\Win32/lm_trie_quant.obj
+         .\Debug\Win32/ngram_model.obj
+         .\Debug\Win32/ngram_model_set.obj
+         .\Debug\Win32/ngram_model_trie.obj
+         .\Debug\Win32/bio.obj
+         .\Debug\Win32/bitarr.obj
+         .\Debug\Win32/bitvec.obj
+         .\Debug\Win32/blas_lite.obj
+         .\Debug\Win32/case.obj
+         .\Debug\Win32/ckd_alloc.obj
+         .\Debug\Win32/cmd_ln.obj
+         .\Debug\Win32/dtoa.obj
+         .\Debug\Win32/err.obj
+         .\Debug\Win32/f2c_lite.obj
+         .\Debug\Win32/filename.obj
+         .\Debug\Win32/genrand.obj
+         .\Debug\Win32/glist.obj
+         .\Debug\Win32/hash_table.obj
+         .\Debug\Win32/heap.obj
+         .\Debug\Win32/listelem_alloc.obj
+         .\Debug\Win32/logmath.obj
+         .\Debug\Win32/matrix.obj
+         .\Debug\Win32/mmio.obj
+         .\Debug\Win32/pio.obj
+         .\Debug\Win32/priority_queue.obj
+         .\Debug\Win32/profile.obj
+         .\Debug\Win32/sbthread.obj
+         .\Debug\Win32/slamch.obj
+         .\Debug\Win32/slapack_lite.obj
+         .\Debug\Win32/strfuncs.obj
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\Debug\Win32\sphinxbase.tlog /r "C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\AD_WIN32.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\AGC.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\BIO.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\BITARR.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\BITVEC.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\BLAS_LITE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\CASE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\CKD_ALLOC.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\CMD_LN.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\CMN.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\CMN_PRIOR.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\DTOA.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\ERR.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\F2C_LITE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FEAT.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_INTERFACE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_NOISE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_PRESPCH_BUF.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_SIGPROC.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_WARP.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_WARP_AFFINE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_WARP_INVERSE_LINEAR.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FE_WARP_PIECEWISE_LINEAR.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FILENAME.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FIXLOG.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\FSG_MODEL.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\GENRAND.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\GLIST.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\HASH_TABLE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\HEAP.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\JSGF.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\JSGF_PARSER.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\JSGF_SCANNER.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\LDA.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\LISTELEM_ALLOC.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\LM_TRIE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\LM_TRIE_QUANT.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\LOGMATH.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\MATRIX.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\MMIO.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\NGRAMS_RAW.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\NGRAM_MODEL.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\NGRAM_MODEL_SET.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\NGRAM_MODEL_TRIE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\PIO.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\PRIORITY_QUEUE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\PROFILE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\SBTHREAD.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\SLAMCH.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\SLAPACK_LITE.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\STRFUNCS.OBJ|C:\AEONWORKINGDIRECTORY\AIVENTURE\AIVENTURE-AEON\CORE-POCKETSPHINX\CODE\SPHINXBASE\WIN32\SPHINXBASE\DEBUG\WIN32\YIN.OBJ" /b MSBuildConsole_CancelEvente4919914f5af46399c953b72a3597e02  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"../../bin/Debug/Win32/sphinxbase.dll" /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/Debug/Win32/sphinxbase.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../bin/Debug/Win32/sphinxbase.lib" /MACHINE:X86 /SAFESEH:NO /DLL .\Debug\Win32/ad_win32.obj
+         .\Debug\Win32/agc.obj
+         .\Debug\Win32/cmn.obj
+         .\Debug\Win32/cmn_prior.obj
+         .\Debug\Win32/feat.obj
+         .\Debug\Win32/lda.obj
+         .\Debug\Win32/fe_interface.obj
+         .\Debug\Win32/fe_noise.obj
+         .\Debug\Win32/fe_prespch_buf.obj
+         .\Debug\Win32/fe_sigproc.obj
+         .\Debug\Win32/fe_warp_affine.obj
+         .\Debug\Win32/fe_warp.obj
+         .\Debug\Win32/fe_warp_inverse_linear.obj
+         .\Debug\Win32/fe_warp_piecewise_linear.obj
+         .\Debug\Win32/fixlog.obj
+         .\Debug\Win32/yin.obj
+         .\Debug\Win32/fsg_model.obj
+         .\Debug\Win32/jsgf.obj
+         .\Debug\Win32/jsgf_parser.obj
+         .\Debug\Win32/jsgf_scanner.obj
+         .\Debug\Win32/ngrams_raw.obj
+         .\Debug\Win32/lm_trie.obj
+         .\Debug\Win32/lm_trie_quant.obj
+         .\Debug\Win32/ngram_model.obj
+         .\Debug\Win32/ngram_model_set.obj
+         .\Debug\Win32/ngram_model_trie.obj
+         .\Debug\Win32/bio.obj
+         .\Debug\Win32/bitarr.obj
+         .\Debug\Win32/bitvec.obj
+         .\Debug\Win32/blas_lite.obj
+         .\Debug\Win32/case.obj
+         .\Debug\Win32/ckd_alloc.obj
+         .\Debug\Win32/cmd_ln.obj
+         .\Debug\Win32/dtoa.obj
+         .\Debug\Win32/err.obj
+         .\Debug\Win32/f2c_lite.obj
+         .\Debug\Win32/filename.obj
+         .\Debug\Win32/genrand.obj
+         .\Debug\Win32/glist.obj
+         .\Debug\Win32/hash_table.obj
+         .\Debug\Win32/heap.obj
+         .\Debug\Win32/listelem_alloc.obj
+         .\Debug\Win32/logmath.obj
+         .\Debug\Win32/matrix.obj
+         .\Debug\Win32/mmio.obj
+         .\Debug\Win32/pio.obj
+         .\Debug\Win32/priority_queue.obj
+         .\Debug\Win32/profile.obj
+         .\Debug\Win32/sbthread.obj
+         .\Debug\Win32/slamch.obj
+         .\Debug\Win32/slapack_lite.obj
+         .\Debug\Win32/strfuncs.obj
+            Creating library ../../bin/Debug/Win32/sphinxbase.lib and object ../../bin/Debug/Win32/sphinxbase.exp
+       Done executing task "Link".
+       Task "Message"
+         sphinxbase.vcxproj -> C:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\\bin\Debug\Win32\sphinxbase.dll
+       Done executing task "Message".
+     1>Done building target "Link" in project "sphinxbase.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+     1>Target "ComputeLinkImportLibraryOutputsForClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "sphinxbase.vcxproj".
+     1>Target "AfterLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_Link" depends on it):
+     1>Done building target "AfterLink" in project "sphinxbase.vcxproj".
+     1>Target "_Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Link" in project "sphinxbase.vcxproj".
+     1>Target "_ALink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_ALink" in project "sphinxbase.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+     1>Target "_Manifest" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+     1>Done building target "_Manifest" in project "sphinxbase.vcxproj".
+     1>Target "RegisterOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('DynamicLibrary'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('DynamicLibrary'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('DynamicLibrary'=='Application' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('DynamicLibrary'=='Application' and 'false'=='true' and 'false'=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+     1>Done building target "RegisterOutput" in project "sphinxbase.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedXDCMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "ResolvedXDCMake" in project "sphinxbase.vcxproj".
+     1>Target "ComputeCLCompileGeneratedXDCFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_XdcMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "sphinxbase.vcxproj".
+     1>Target "MakeDirsForXdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForXdcMake" in project "sphinxbase.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+     1>Target "_XdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_XdcMake" in project "sphinxbase.vcxproj".
+     1>Target "ComputeCLCompileGeneratedSbrFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BscMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "sphinxbase.vcxproj".
+     1>Target "MakeDirsForBscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForBscMake" in project "sphinxbase.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "_BscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_BscMake" in project "sphinxbase.vcxproj".
+       Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+       Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+     1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "sphinxbase.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+     1>Target "CreateSatelliteAssemblies" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "CreateSatelliteAssemblies" in project "sphinxbase.vcxproj".
+     1>Target "_Appverifier" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Appverifier" in project "sphinxbase.vcxproj".
+     1>Target "_Deploy" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "_Deploy" in project "sphinxbase.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "sphinxbase.vcxproj".
+     1>Target "GetCopyToOutputDirectoryItems" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryItems" in project "sphinxbase.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+     1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CopySourceItemsToOutputDirectory" in project "sphinxbase.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+     1>Target "_CheckForCompileOutputs" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CheckForCompileOutputs" in project "sphinxbase.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Target "CopyFilesToOutputDirectory" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+     1>Done building target "CopyFilesToOutputDirectory" in project "sphinxbase.vcxproj".
+     1>Target "PrepareForRun" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+     1>Done building target "PrepareForRun" in project "sphinxbase.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "PostBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PostBuildEvent" in project "sphinxbase.vcxproj".
+     1>Target "_BuildLinkAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_BuildLinkAction" in project "sphinxbase.vcxproj".
+     1>Target "BuildLink" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildLink" in project "sphinxbase.vcxproj".
+       Target "CreateTfsBuildInfoResource" skipped, due to false condition; ( $(AddBuildInfoToAssembly)==true ) was evaluated as ( false==true ).
+     1>Target "AfterBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+     1>Done building target "AfterBuild" in project "sphinxbase.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Build" depends on it):
+       Task "Delete"
+         Deleting file "Debug\Win32\sphinxbase.tlog\unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "Debug\Win32\sphinxbase.tlog\sphinxbase.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "sphinxbase.vcxproj".
+     1>Target "Build" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "Build" in project "sphinxbase.vcxproj".
+     1>Target "AfterRebuild" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (target "Rebuild" depends on it):
+     1>Done building target "AfterRebuild" in project "sphinxbase.vcxproj".
+     1>Target "Rebuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (entry point):
+     1>Done building target "Rebuild" in project "sphinxbase.vcxproj".
+     1>Done Building Project "c:\aeonWorkingDirectory\aiventure\aiventure-aeon\core-pocketsphinx\code\sphinxbase\win32\sphinxbase\sphinxbase.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.51
