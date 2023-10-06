@@ -16,10 +16,13 @@ Clone and install sphinxbase (NOT as sudo)
 	Clone the sphinxbase repo
 		`git clone https://github.com/cartheur/sphinxbase.git`
 	Step into the new directory
-		`cd sphinxbase`
-		`./autogen.sh`
-		`make`
-		`sudo make install`
+ ```
+		cd sphinxbase
+		./autogen.sh
+		make
+		sudo make install
+```
+
 	Check the installation
 		sphinx_lm_convert
 	An error will be experienced. Add path to the location where sphinx is installed
