@@ -23,6 +23,11 @@ Clone and install sphinxbase (NOT as sudo)
 		make
 		sudo make install
 ```
+If the autogen.sh file returns a permission denied error:
+
+```
+chmod +x autogen.sh
+```
 
 Check the installation
 		`sphinx_lm_convert`
