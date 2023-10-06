@@ -28,9 +28,9 @@ Check the installation
 		`sphinx_lm_convert`
 An error will be experienced. Add path to the location where sphinx is installed
 		`sudo nano /etc/ld.so.conf`
-	Add new line
-		/usr/local/lib
-	Refresh the configuration
-		sudo ldconfig
-	Retest the installation
-		sphinx_lm_convert
+Add new line
+		`/usr/local/lib`
+Refresh the configuration
+		`sudo ldconfig`
+Retest the installation
+		`sphinx_lm_convert`
