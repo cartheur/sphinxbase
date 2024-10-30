@@ -7,7 +7,7 @@ Create folder structure and install sphinxbase prerequisites
      su
      mkdir projects
      mkdir software
-     apt install gcc automake autoconf libtool bison swig audacity libasound2-dev python-dev-is-python3 python-alsaaudio
+     apt install gcc automake autoconf libtool bison swig audacity libasound2-dev python-dev-is-python3 ppyalsaaudio
 ```
 
 Clone and install sphinxbase (NOT as sudo)
