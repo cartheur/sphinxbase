@@ -1,5 +1,8 @@
-# sphinxbase
+## sphinxbase
+
 The last (good) version written in C. Build, test, and install this before doing the same with pocketsphinx.
+
+Get the 4.0.0 code [here](https://sourceforge.net/projects/cmusphinx/files/).
 
 Create folder structure and install sphinxbase prerequisites
 		
