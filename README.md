@@ -56,4 +56,11 @@ python3-distutils               3.10.8-1~22.04                              all 
 python3-setuptools              59.6.0-1.2ubuntu0.22.04.2                   all          Python3 Distutils Enhancements
 
 ```
+and `python3 -c "import distutils; print(distutils.__file__)"` shows:
+
+```
+<string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+/usr/lib/python3.10/distutils/__init__.py
+```
+
 It still fails.
