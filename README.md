@@ -91,7 +91,7 @@ Left off with searching the directory for `grep -rnw ~/github/sphinxbase -e 'dis
 /home/cartheur/github/sphinxbase/m4/ax_python_devel.m4:278:		PYTHON_EXTRA_LDFLAGS=`$PYTHON -c "import distutils.sysconfig; \
 /home/cartheur/github/sphinxbase/m4/ax_python_devel.m4:279:			conf = distutils.sysconfig.get_config_var; \
 ```
-Running the command `-c "import distutils" 2>&1` at the shell will give the result:
+Running the command `python -c "import distutils" 2>&1` at the shell will give the result:
 
 ```
 <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
