@@ -43,7 +43,7 @@ Refresh the configuration
 Retest the installation
 		`sphinx_lm_convert`
 
-### Newer errors
+### Error building for Odroid Ubuntu 22.04 `arm32`
 
 With the depreciation of `distutils` in python3.12, even using 3.10.8 will result in errors:
 
