@@ -97,3 +97,15 @@ Running the command `python -c "import distutils" 2>&1` at the shell will give t
 <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
 ```
 _Without_ throwing the not found error.
+
+### On RaspberryPi `arm64`
+
+No issues with `aclocal`, but issue with create docs:
+
+```
+  File "/home/cartheur/sphinxbase/doc/./doxy2swig.py", line 302, in do_memberdef
+    arg_type = n.getElementsByTagName('type')[0]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+make[1]: *** [Makefile:605: pydoc.i] Error 1
+```
